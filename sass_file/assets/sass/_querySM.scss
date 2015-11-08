@@ -1,0 +1,118 @@
+@media only screen and (max-width: 767px) {
+	.logo-1 {
+		position: relative;
+		top: 10px;
+		left: 20px;	
+		padding-bottom: 20px;
+	}
+	#categories {
+		position: relative;
+		top: -38px;
+	}
+	#membership { 
+		position: relative; 
+		top: 170px;}
+		
+	.by-line_med {display: none;}
+	.by-line_sm {
+		display: block;
+		padding: 20px 10px;
+		background-color: #fff;
+		color: #434344;
+		text-align: center;
+		h1 {
+			margin: 0 0 5px 0;
+			font-size: 4rem;
+			font-variant: small-caps;
+			font-weight: 300;
+			line-height: 30px;
+		}
+		h4 {
+			margin: 0;
+			font-weight: 200;
+			font-size: 18px;
+		}	
+	}
+
+	figure{
+		.back {display: none;}
+		width: 100%;
+		margin: 0;
+		padding: 20px 20px 1px;
+		display: block;
+		-webkit-transition:height 0.5s ease-out;
+		-moz-transition:height 0.5s ease-out;
+		-o-transition:height 0.5s ease-out;
+		transition:height 0.5s ease-out;
+		img {
+			width: 78.5%;
+			display: block;
+			margin: 2px 40px 0;
+		}
+		
+		h4, h5, h2, p {color: #515454;}
+		h4{
+			font-weight: bold;
+			// margin: 30px 0;
+		}
+
+		.icon {
+			display: inline;
+			:hover {
+				color: #3BA9A9;
+				text-decoration: none;
+			}
+		}
+		.icon-dots {
+			margin: 0;
+			position: relative;
+			left: 85%;
+		}
+		.caption {
+			display: block;
+			
+
+			// height: 0;
+			// padding-bottom: percentage(162/320);
+		}
+	}
+
+
+
+
+
+	.slideshow {width: 85%;}
+
+	footer {
+		.logo {display: none;}
+		background-color: #515454; 
+		ul {
+			padding: 0;
+			li{ display: inline-block;
+			}
+		}
+		.legal {display: none;}
+		.social {
+			width: 100%;
+			text-align: center;
+			padding: 5%;
+			li {margin: 0 2%;}
+			a {
+				color: #fff;
+				font-size: 5rem;
+				text-decoration: none;
+				&:hover{color: #72fdd4;}
+			}
+		}
+		p {
+			font-weight: lighter;
+			margin: 0;
+			text-align: center;
+			padding-bottom: 20px;
+		}
+	}
+
+
+
+
+}
